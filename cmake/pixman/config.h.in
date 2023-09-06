@@ -1,0 +1,6 @@
+#ifndef PIXMAN_CONFIG_H__
+#define PIXMAN_CONFIG_H__
+
+#define PACKAGE "foo"
+
+#endif

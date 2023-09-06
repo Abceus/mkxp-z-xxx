@@ -24,7 +24,7 @@ if(NOT theora_origin_POPULATED)
         "${THEORA_SRC_DIR}/lib/decapiwrapper.c" "${THEORA_SRC_DIR}/lib/decinfo.c"
         "${THEORA_SRC_DIR}/lib/decode.c" "${THEORA_SRC_DIR}/lib/huffdec.c")
     
-    target_include_directories(theora PRIVATE "${THEORA_SRC_DIR}/include")
+    target_include_directories(theora PUBLIC "${THEORA_SRC_DIR}/include")
     
     target_compile_options(theora PRIVATE -Wno-shift-negative-value
         -Wno-shift-op-parentheses)

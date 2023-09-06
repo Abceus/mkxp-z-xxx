@@ -26,3 +26,6 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(vorbis)
+
+# pixman
+add_subdirectory("cmake/pixman")
